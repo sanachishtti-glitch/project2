@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parentcointainer4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cointainer4{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 2px solid black;
+    background: #323030a7;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #7e5586;
+}
+
+#input4{
+    padding-left: 15px;
+    font-size: 25px;
+    margin: 5px;
+   
+    
+    width: 96%;
+    height: 70px;
+    border: 1.5px solid black;
+    outline: none;
+    box-sizing: border-box;
+    background: #c7a7ce;
+}
+
+.btncointainer4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    background: #b488b2;
+}
+
+.nbr4,
+.btnclear4,
+.btnequal4{
+    border: 3px solid rgb(232, 138, 255);
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #42124e7a;
+}
+
+.nbr4:hover{
+
+        background: #f47dff;
+    }
+
+.btnclear4:hover{
+
+        background: #f47dff;
+    }
+.btnequal4:hover{
+
+        background: #f47dff;
+    }
+
+
+
+@media (max-width: 480px){
+
+    .cointainer4{
+        max-width: 95%;
+    }
+
+    #input4{
+        font-size: 20px;
+        height: 60px;
+    }
+
+    .nbr4,
+    .btnclear4,
+    .btnequal4{
+        height: 50px;
+        font-size: 18px;
+    }
+    
+}
